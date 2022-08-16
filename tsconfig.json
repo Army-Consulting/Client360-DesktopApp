@@ -1,10 +1,12 @@
 {
     "compilerOptions": {
-        "target": "es2021",         
+        "target": "es2021",
+        "jsx": "react",         
         "module": "commonjs",    
         "strict": true,          
         "esModuleInterop": true,    
         "outDir": "./build"
     },
+    "include": ["./src/**/*.ts", "./src/**/*.tsx"],
     "exclude": ["node_modules"]
 }
